@@ -48,3 +48,12 @@ Update appsettings.json in ReqresApi.ConsoleApp:
   }
 }
 These settings are injected into HttpClient using the Options pattern.
+
+🧠 Design Decisions
+Design Area	Implementation
+HTTP Calls	HttpClientFactory + DI
+Resilience	Try/Catch + Custom Exceptions
+Config Management	IOptions<T> Pattern
+Modularity	Client/Service split with interfaces
+Pagination	Handled internally in service layer
+Testability	Uses Moq for isolation in unit tests
