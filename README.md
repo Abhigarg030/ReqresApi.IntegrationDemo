@@ -21,6 +21,12 @@ Run the Console App
 cd ReqresApi.ConsoleApp
 dotnet run
 
+🧪 Testing
+
+cd ReqresApi.Tests
+dotnet test
+
+
 ## 📌 Features
 
 - ✅ Async API client using `HttpClientFactory`
